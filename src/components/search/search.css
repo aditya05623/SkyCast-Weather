@@ -1,0 +1,71 @@
+/* Main container wrapper (optional if you wrap it) */
+.search-container {
+  margin-bottom: 20px;
+}
+
+/* Control (input box) */
+.react-select__control {
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(12px);
+  border-radius: 15px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  padding: 5px 10px;
+  box-shadow: none !important;
+  transition: all 0.3s ease !important;
+  cursor:pointer;
+
+}
+
+.react-select__control--is-focused {
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Input text */
+.react-select__input-container {
+  color: white !important;
+}
+
+.react-select__single-value {
+  color: white !important;
+  font-weight: 500;
+}
+
+/* Placeholder */
+.react-select__placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Dropdown menu */
+.react-select__menu {
+  border-radius: 15px !important;
+  overflow: hidden;
+  background: rgba(40, 40, 60, 0.95) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Dropdown options */
+.react-select__option {
+  color: white !important;
+  padding: 10px 15px !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.react-select__option--is-focused {
+  background: linear-gradient(135deg, #667eea, #764ba2) !important;
+}
+
+.react-select__option--is-selected {
+  background: linear-gradient(135deg, #764ba2, #667eea) !important;
+}
+
+/* Indicators */
+.react-select__dropdown-indicator,
+.react-select__clear-indicator {
+  color: white !important;
+}
+
+.react-select__indicator-separator {
+  display: none;
+}
